@@ -1,11 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
-
-
 
 body{
     background-image: linear-gradient(#0ebda5 , #343434 ,#404040,#00caf8 );
@@ -18,6 +15,7 @@ p{
 .logo{
     width: 150px;
 }
+
 #cab{
     position: relative;
     padding: 10px;
@@ -33,6 +31,7 @@ p{
     text-shadow: 0px 5px 8px rgb(85, 231, 187);
     padding:5px;
 }
+
 #cab>.nick, .logo{
     margin:0px;
     text-align: center;
@@ -49,8 +48,8 @@ li{
     position: relative;
     right: 4px;
     transition: transform 1s;
-;
 }
+
 li:hover{
  transform: scale(1.5,1.5);
 }
@@ -58,23 +57,23 @@ li:hover{
 
  /*---------------------------cabeçalho-------------------------------*/
 
- #sobre{
-     display: block;
-     text-align: center;
-     height: 350px;
-     margin: 15px;px;
+#sobre{
+    display: block;
+    text-align: center;
+    height: 350px;
+    margin: 15px;
     background-color: #cfe1eeb7;
-     padding: 12px;px;
-     border-radius: 10px;
-     box-shadow: 4px 5px 15px black;
- }
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 15px black;
+}
 
 
- #sobre>h1, h2, p{
+#sobre>h1, h2, p{
      padding: 18px;
 
      color:rgba(12, 1, 1, 0.904);
- }
+}
 #exp{
     width: 500px;
     position: relative;
@@ -84,9 +83,8 @@ li:hover{
 
 #exp>h1{
     padding:10px;
-    font:bold 25px NT Wagner;
+    font:bold 25px;
     text-align: center;
-    
 }
 
 #exp2{
@@ -98,14 +96,9 @@ li:hover{
 }
 
 #exp2>h2{
-    font:bold 30px NT Wagner;
+    font:bold 30px;
     text-align: center;
-   
 }
-
-
-
-
 
 #exp3{
     position:relative;
@@ -115,7 +108,7 @@ li:hover{
 
 #exp3>h2{
     padding:0px;
-    font:bold 25px NT Wagner;
+    font:bold 25px;
     text-align: center;
 }
 
@@ -132,7 +125,7 @@ picture>img{
     margin-top: 10px;
     border-radius: 20px;
     max-width:300px;
-    transition: transform 1s;
+    transition: all 1s;
     box-shadow: 0px 2px 5px black;
 }
 
@@ -150,7 +143,7 @@ picture>img:hover{
     text-align: center;
     position: relative;
     right: 9%;
-    font:bold 25px heavitas;
+    font:bold 25px;
     color:white;
     text-shadow: 0px 4px 6px black;
     padding: 15px;
@@ -159,18 +152,16 @@ picture>img:hover{
 
 #media>video{
     border-radius: 10px;
-    margin: 8px; 
+    margin: 8px;
     display: block;
 }
-
-
 
 /*-----------------------footer----------------------------*/
 
 footer{
     background-color: #9be7f8;
     text-align: center;
-    font:bold 30px NT Wagner;
+    font:bold 30px;
     margin-top:10px;
 }
 
@@ -178,7 +169,7 @@ footer{
     #cab{
         position: relative;
     }
-    
+
     #exp2{
         position: relative;
         width: 400px;
@@ -190,7 +181,7 @@ footer{
         position: relative;
         left: 24%;
     }
-
+}
 
 
 @media (max-width:950px){
@@ -198,7 +189,7 @@ footer{
         position: relative;
         left: 20%;
     }
-   
+
     #exp2{
         position: relative;
         width: 300px;
@@ -276,7 +267,7 @@ footer{
     #exp{
         width: 100%;
     }
-    
+
     #exp2{
         position: center;
         width: 100%;
@@ -482,7 +473,6 @@ footer{
     #exp{
         width: 100%;
     }
-    
     #exp2{
         position: relative;
         width: 100%;
